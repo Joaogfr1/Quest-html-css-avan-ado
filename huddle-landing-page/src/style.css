@@ -1,0 +1,84 @@
+body{
+    background: url(./images/bg-desktop.svg);
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+}
+
+.logo{
+    padding: 60px 70px;
+}
+
+.conteudo{
+   padding: 20px 80px;
+   display: grid;
+   grid-template-columns: 1.5fr 1fr;
+   
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+p{
+    font-family: 'open sans', sans-serif;
+    color: #ffffff;
+    padding: 25px 0px;
+    font-size: 20px;
+}
+
+.botao{
+    display: flex;
+    align-self: flex-start;
+    font-family: 'poppins', sans-serif;
+    border-radius: 50px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.botao a{
+   display: flex;
+   align-self: flex-start;
+   font-family: 'poppins', sans-serif;
+   border-radius: 50px;
+   color: hsl(257, 40%, 49%);
+   background-color: #ffffff;
+   padding: 15px 60px;
+   transition: 0.3s;
+}
+
+.botao a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
+
+.social{
+    display: flex;
+    justify-content: end;
+    padding: 100px 100px 0px 0px;
+}
+
+
+.social a i{
+    font-size: 30px;
+    color: #ffffff;
+    transition: 0.3s;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.social a i:hover{
+    color: hsl(300, 77%, 52%);
+}

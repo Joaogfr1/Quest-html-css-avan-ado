@@ -1,0 +1,57 @@
+@media (max-width: 425px){
+    body{
+        background: url(../src/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        height: 100vh;
+    }
+
+    .logo{
+        padding: 20px 30px;
+        max-width: 200px;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .imagem{
+        min-width: 300px;
+    }
+
+    .informacoes{
+        display: flex;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .botao{
+        display: flex;
+        align-self: center;
+        margin-top: 10px;
+    }
+
+    .botao a{
+        padding: 15px 80px;
+    }
+
+    .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .social a i{
+        font-size: 20px;
+    }
+}
