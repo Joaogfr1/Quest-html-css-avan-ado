@@ -9,4 +9,4 @@ Link do desafio no Frontend Mentor: https://www.frontendmentor.io/challenges/hud
 
 # Pagina em Mobile (375)
 
-![Captura de tela 2024-08-13 165638](https://github.com/user-attachments/assets/772ebbcf-11fe-4caa-9a8d-52aafab95bed)
+![Captura de tela 2024-08-13 171027](https://github.com/user-attachments/assets/b4660b96-1d60-4e8c-b5da-5f6a5646cb34)
